@@ -1,0 +1,42 @@
+/* to be used globally */
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter:wght@300&family=Karla:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+body{
+  background-color:black;
+}
+
+h1,h2,h4,p,a, div{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: aqua;
+}
+ul{
+  list-style-type: none;
+}
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248,217,15);
+  color:#222;
+  border: 1px solid #fff;
+  font-weight:600;
+  cursor:pointer
+}
+.btn-light{
+  background:transparent;
+  color:white
+}
+.btn:hover{
+  background: rgba(255,255,255,0.2);
+  color: white;
+  transition: 0.3s;
+}
